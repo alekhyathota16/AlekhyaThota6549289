@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Pages</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- External CSS (for form section) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS (for CSS demo section) -->
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        .header {
+            color: rebeccapurple;
+            font-size: 30px;
+        }
+
+        .content {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+                                           <!-----Section 1----->
+    <h1 style="color: red;">Hello CSS Styling</h1>
+
+<h2 class="header">Learning CSS Types</h2>
+
+<p class="content">
+    This paragraph is styled using internal + external CSS.
+</p>
+
+<hr>
+                                    <!----section 2 ----->
+<h2>CSS Syntax and Comments</h2>
+<div class="container">
+
+    <form onsubmit="return handleSubmit()">
+
+        <h2>Contact Form</h2>
+
+        <label>Name</label>
+        <input type="text" id="sname" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label>Message</label>
+        <textarea id="message" placeholder="Enter the message"></textarea>
+
+        <button type="submit">Submit</button>
+
+        <p id="msg">Fill the form.</p>
+
+    </form>
+
+</div>
+<script>
+function handleSubmit() {
+    document.getElementById("msg").innerText =
+        "Submitted Successfully";
+    return false;
+}
+</script>
+<hr>
+
+
+                                     <!------Section 3------>
+<div id="mainHeader">
+    Event Management System
+</div>
+
+<h2>Upcoming Events</h2>
+
+<div class="eventCard">
+    <h3>Web Development Workshop</h3>
+    <p>Learn HTML, CSS and JavaScript basics.</p>
+</div>
+
+<div class="eventCard">
+    <h3>AI Seminar</h3>
+    <p>Introduction to Artificial Intelligence concepts.</p>
+</div>
+
+<div class="eventCard">
+    <h3>Cultural Fest</h3>
+    <p>Enjoy music, dance and activities.</p>
+</div>
+
+<hr>
+                                               <!-----Section 4---->
+ <header>
+    <h1>City Council Portal</h1>
+  </header>
+
+  <div class="section">
+  <h2>Public Services</h2>
+  <p>Access all city services and updates here.</p>
+  </div>
+
+
+  <div class="section">
+  <h2>Announcements</h2>
+  <p>Latest news and council decisions.</p>
+  </div>
+  <hr>
+                                                <!----Section 5---->
+  <header>
+    <h1>City Marketing Portal</h1>
+</header>
+
+<section class="intro">
+    <h2>Welcome Message</h2>
+    <p>
+        I am really happy to present this small portal project. In this, I tried to improve how text looks on a webpage by using different CSS typography properties. It helped me understand how fonts, spacing, and alignment can make a website look more clean and readable.
+    </p>
+</section>
+
+<section class="news">
+    <h2>Latest Updates</h2>
+    <p>
+        While working on this project, I learned that choosing the right font and proper spacing between lines is very important. It makes the content easier to read and also gives a better experience to users visiting the website.
+    </p>
+</section>
+
+<section class="highlight">
+    <h2>Important Notice</h2>
+    <p>
+        From this activity, I understood that consistency in typography is very important in web design. If we use proper font size, alignment, and spacing everywhere, the website looks more professional and attractive.
+    </p>
+</section>
+<hr>
+                                            <!-----Section 6----->
+<nav>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>Departments</h2>
+    <ul class="dept-list">
+        <li>Marketing</li>
+        <li>Finance</li>
+        <li>Public Relations</li>
+        <li>City Planning</li>
+    </ul>
+</section>
+<hr>
+                                             <!-----Section 7----->
+<h2>Table Styling</h2>
+<table class="event-table">
+    <tr>
+        <th>Id</th>
+        <th>Event</th>
+        <th>Place</th>
+    </tr>
+
+    <tr>
+        <td>101</td>
+        <td>Sports Day</td>
+        <td>Ground</td>
+    </tr>
+
+    <tr>
+        <td>102</td>
+        <td>Food Fest</td>
+        <td>College Hall</td>
+    </tr>
+
+    <tr>
+        <td>103</td>
+        <td>Music Night</td>
+        <td>Auditorium</td>
+    </tr>
+    
+</table>
+<hr>
+                                          <!-----Section 8---->
+<h1 id="mainHeader">College Events</h1>
+
+    <div class="eventCard">
+        <h2>Sports Day</h2>
+        <p>
+            Our college sports day will be held on Monday in the playground.
+        </p>
+    </div>
+
+    <div class="eventCard">
+        <h2>Food Fest</h2>
+        <p>
+            Students can enjoy different food items and games in the food fest.
+        </p>
+    </div>
+
+    <div class="container">
+        <form>
+            <h2>Student Form</h2>
+
+            <label>Name</label>
+            <input type="text" placeholder="Enter name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter email">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <p class="hidden-box">
+        This text uses visibility hidden.
+    </p>
+
+    <p class="display-box">
+        This text uses display none.
+    </p>
+<hr>
+                                            <!----Section 9----->
+     <h1>Community Bulletin</h1>
+
+    <div class="newsArticle">
+        <p>
+            Our community organized different activities this month. Students participated in sports and cultural events. A food festival and music program were also conducted. Everyone enjoyed the activities and supported the events successfully.
+
+            A cleanliness drive was also arranged in the park area. Many students planted small trees and helped in keeping the surroundings clean and green.
+        </p>
+        </p>
+    </div>
+
+<hr>
+                                            <!-----Section 10---->
+    <header>
+        <h1>City Portal</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="eventCard">
+            <img src="Sports.jpg" alt="event image">
+            <h2>Sports Day</h2>
+            <p>
+                Students participated in different sports activities.
+            </p>
+        </div>
+
+        <div class="eventCard">
+            <img src="Car.jpg" alt="event image">
+           <h2>Car Race</h2>
+            <p>
+                Many students enjoyed watching the exciting car race event.
+            </p>
+        </div>
+
+    </div>
+<hr>
+                                          <!------Scetion 11------>
+  <h1>Debug and Test with DevTools and VS Code</h1>
+
+    <h2>Objective</h2>
+
+    <p>
+        To test the webpage on different screen sizes and debug layout problems using Chrome DevTools and VS Code.
+    </p>
+
+    <h2>Steps Performed</h2>
+
+    <ol>
+        <li>Opened the webpage in Google Chrome.</li>
+
+        <li>Right clicked on the webpage and selected Inspect.</li>
+
+        <li>Used the Device Toolbar to test mobile and tablet screens.</li>
+
+        <li>Checked styles like width, padding, margin, and font size.</li>
+
+        <li>Used the Network tab to check whether the CSS file loaded properly.</li>
+
+        <li>Edited HTML and CSS files in VS Code and refreshed the browser.</li>
+    </ol>
+
+    <h2>Result</h2>
+
+    <p>
+        The webpage was tested successfully on different screen sizes and the layout worked properly.
+    </p>
+
+</body>

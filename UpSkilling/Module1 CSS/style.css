@@ -1,0 +1,342 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: left;
+}
+
+/* main heading */
+#mainHeader {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* header styling */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* h1 styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px;
+}
+
+/* h2 styling */
+h2 {
+    color: darkblue;
+    margin: 15px 0;
+}
+
+/* section styling */
+.section {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* section heading */
+.section h2 {
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* paragraph styling */
+p {
+    font-family: Arial, sans-serif;
+    color: black;
+    line-height: 1.5;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+/* event card styling */
+.eventCard {
+    background-color: white;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 20px auto;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* event image */
+.eventCard img {
+    width: 100%;
+    height: auto;
+}
+
+/* typography styling */
+.news p,
+.intro p,
+.highlight p {
+    font-style: italic;
+}
+
+/* content styling */
+.content {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* form container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* form styling */
+form {
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+/* form heading */
+form h2 {
+    margin-bottom: 20px;
+}
+
+/* label styling */
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* input and textarea styling */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* textarea styling */
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* outline effect */
+form input:focus,
+form textarea:focus {
+    outline: 2px solid blue;
+}
+
+/* button styling */
+form button,
+button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* success message */
+#msg {
+    margin-top: 10px;
+    color: green;
+}
+
+/* navigation menu */
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #1e88e5;
+    padding: 10px;
+}
+
+/* menu items */
+.menu li {
+    margin: 0 15px;
+}
+
+/* link styling */
+a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #e0e0e0;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+/* ordered list styling */
+ol {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+}
+
+/* ordered list items */
+ol li {
+    margin-bottom: 10px;
+}
+
+/* department list */
+.dept-list {
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 20px auto;
+    padding: 10px;
+    width: 250px;
+    text-align: left;
+}
+
+/* department list items */
+.dept-list li {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #f4f6f8;
+}
+
+/* table styling */
+.event-table {
+    width: 80%;
+    margin: 20px auto;  
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* table heading */
+.event-table th {
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+/* table data */
+.event-table td {
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+/* zebra rows */
+.event-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* hover effect */
+.event-table tr:hover {
+    background-color: lightyellow;
+}
+
+/* visibility hidden example */
+.hidden-box {
+    visibility: hidden;
+}
+
+/* display none example */
+.display-box {
+    display: none;
+}
+
+/* news article styling */
+.newsArticle {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid gray;
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 1px solid gray;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* responsive design */
+@media screen and (max-width: 768px) {
+
+    /* menu responsive */
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    /* card responsive */
+    .eventCard {
+        width: 90%;
+    }
+
+    /* font responsive */
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+
+    /* image responsive */
+    .eventCard img {
+        width: 80%;
+    }
+
+    /* article responsive */
+    .newsArticle {
+        column-count: 1;
+    }
+}

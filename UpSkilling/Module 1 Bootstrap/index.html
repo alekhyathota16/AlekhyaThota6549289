@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Page</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+</head>
+<body>
+          <!---Exercise 1------>
+
+
+    <h1 class="text-primary">Hello Bootstrap 5</h1>
+    <button class="btn btn-success">Click Me</button>
+
+
+
+     <h1>Bootstrap Folder Structure</h1>
+
+    <h3>CSS Folder</h3>
+    <p>CSS folder contains styles for the webpage. It changes colors, fonts, buttons, and layouts.</p>
+
+    <h3>JS Folder</h3>
+    <p>JS folder contains JavaScript files. It adds interactive features like dropdowns and modals.</p>
+
+    <h3>Icons Folder</h3>
+    <p>Icons folder contains icon files used to display symbols and images on a webpage.</p>
+
+    <h1 class="text-primary">Hello Bootstrap 5</h1>
+
+    <button class="btn btn-success">Green Button</button>
+<hr>
+  
+           <!----Exercise 2----->
+
+
+    <h1 class="text-primary">Hello Bootstrap 5</h1>
+
+    <button class="btn btn-success">Green Button</button>
+
+    <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">
+        Click Me
+    </button>
+
+    <div id="demo" class="collapse mt-3">
+        Bootstrap JavaScript is working!
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<hr>
+
+        <!-----Exercise 3---->
+    
+    <h1>Grid Layout</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">Column 1</div>
+            <div class="col-12 col-md-6 col-lg-4">Column 2</div>
+            <div class="col-12 col-md-6 col-lg-4">Column 3</div>
+        </div>
+    </div>
+
+    <hr>
+     
+                <!-----Exercise 4---->
+
+
+    <h2>Two-Column Layout</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                Sidebar
+            </div>
+
+            <div class="col-md-9">
+                Content Area
+            </div>
+        </div>
+    </div>
+    <h2>Four-Column Layout</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">Column 1</div>
+            <div class="col-sm-3">Column 2</div>
+            <div class="col-sm-3">Column 3</div>
+            <div class="col-sm-3">Column 4</div>
+        </div>
+    </div>
+<hr>
+
+            <!-----Exercise 5----->
+
+    <h2>Centered Content</h2>
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="height:100px;">
+            <div class="col-4">
+                Centered Content
+            </div>
+        </div>
+    </div>
+    <h2>Column Reordering</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 order-md-2">
+                First Column
+            </div>
+
+            <div class="col-md-6 order-md-1">
+                Second Column
+            </div>
+        </div>
+    </div>
+<hr>
+                    <!-------Exercise 6------>
+
+    <h2>Responsive Navbar</h2>
+
+    <div class="d-flex flex-column flex-md-row gap-3">
+        <div>Home</div>
+        <div>About</div>
+        <div>Contact</div>
+    </div>
+    <h2>Card Layout</h2>
+
+    <div class="d-flex justify-content-between align-items-center">
+        <h4>Card Title</h4>
+        <button>View</button>
+    </div>
+<hr>
+             <!----Exercise 7---->
+
+    <h1>Bootstrap Typography</h1>
+    <class="container mt-4">
+
+    <h1 class="display-1">Display 1 Heading</h1>
+
+    <p class="lead">
+        This is a lead paragraph used to highlight important content.
+    </p>
+
+    <p class="text-muted">
+        This text is muted.
+    </p>
+
+    <p class="fw-bold">
+        This text is bold.
+    </p>
+
+    <p class="fw-normal">
+        This text has normal font weight.
+    </p>
+
+
+    <h1>Text Transformation Utilities</h1>
+     <class="container mt-4">
+
+    <p class="text-uppercase">
+        Bootstrap Typography Example
+    </p>
+
+    <p class="text-lowercase">
+        BOOTSTRAP TYPOGRAPHY EXAMPLE
+    </p>
+
+    <p class="text-capitalize">
+        bootstrap typography example
+    </p>
+<hr>
+
+                <!-------Exercise 8---->
+      <h3>Registration Form</h3>
+
+    <input type="text" class="form-control mb-2" placeholder="Name">
+
+    <div class="input-group mb-2">
+        <span class="input-group-text">@</span>
+        <input type="email" class="form-control" placeholder="Email">
+    </div>
+
+    <div class="form-check mb-2">
+        <input type="checkbox" class="form-check-input">
+        <label class="form-check-label">Accept Terms</label>
+    </div>
+
+    <button class="btn btn-primary">Register</button>
+<hr>
+
+
+
+                        <!-----Exercise 8----->
+     <h3>Login Form</h3>
+
+    <div class="form-floating mb-2">
+        <input type="email" class="form-control" id="email" placeholder="Email">
+        <label for="email">Email</label>
+    </div>
+
+    <div class="form-floating mb-2">
+        <input type="password" class="form-control" id="password" placeholder="Password">
+        <label for="password">Password</label>
+    </div>
+
+    <button class="btn btn-success">Login</button>
+<hr>
+
+
+                        <!------Exercise 9---->
+
+
+    <h1>Contextual Buttons</h1>
+    <class="m-3">
+
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-outline-primary">Outline</button>
+
+    <h1>Button Group and Toggle Button</h1>
+     <class="container mt-3">
+
+    <div class="btn-group">
+        <button class="btn btn-primary">Home</button>
+        <button class="btn btn-primary">About</button>
+        <button class="btn btn-primary">Contact</button>
+    </div>
+
+    <br><br>
+
+    <input type="checkbox" class="btn-check" id="check1">
+    <label class="btn btn-success" for="check1">Toggle Me</label>
+
+<hr>
+
+
+                    <!-----Exercise 10----->
+
+
+    <h2>Responsive Navbar</h2>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Logo</a>
+
+        <div class="navbar-nav">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Contact</a>
+        </div>
+
+        <form class="d-flex">
+            <input class="form-control" type="search" placeholder="Search">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+    </nav>
+     <h2>Nav Tabs</h2>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+        </li>
+    </ul>
+    <h2>Nav Pills</h2>
+
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+        </li>
+    </ul>
+<hr>
+
+                        <!-------Exercise 10- ---->
+
+    <h2>Profile Card</h2>
+
+    <div class="card" style="width: 18rem;">
+        <img src="Logo.png" class="card-img-top" alt="Profile Image">
+
+        <div class="card-body">
+            <h5 class="card-title">John Doe</h5>
+            <p>Web Developer</p>
+        </div>
+    </div>
+
+    <h2>Media Object</h2>
+
+    <div class="d-flex">
+        <img src="Logo.png" alt="Profile" width="100">
+
+        <div class="ms-3">
+            <h5>John Doe</h5>
+            <p>This is the content displayed beside the image.</p>
+        </div>
+    </div>
+
+<hr>
+
+                    <!------Exercise 12----->
+
+    <h1>Margin and Padding Utilities</h1>
+    <div class="m-3 p-2 bg-light">Box 1</div>
+
+    <div class="mt-4 py-5 bg-secondary text-white">
+        Box 2
+    </div>
+
+    <h1>Simple Pricing Section</h1>
+    <class="text-center">
+
+    <div class="p-5 m-3 bg-light">
+        <h3>Basic Plan</h3>
+        <p>$10/month</p>
+    </div>
+
+    <div class="p-5 m-3 bg-secondary text-white">
+        <h3>Pro Plan</h3>
+        <p>$20/month</p>
+    </div>
+
+<hr>
+
+
+                    <!-----Exercise 13----->
+
+    <h1>Dashboard with Background & Text Colors</h1>
+    <class="text-center">
+
+    <div class="bg-primary text-white p-3 m-2">Dashboard 1</div>
+
+    <div class="bg-warning text-dark p-3 m-2">Dashboard 2</div>
+
+    <div class="bg-success text-white p-3 m-2">Dashboard 3</div>
+
+
+    <h1>Background Gradient with Dark Theme</h1>
+    <class="text-center text-white">
+
+    <div class="bg-dark bg-gradient p-5 m-3">
+        Dark Gradient Box
+    </div>
+
+<hr>
+
+                <!------Exercise 14----->
+
+    <h1> Display Utilities</h1>
+    <class="text-center m-3">
+
+    <div class="d-none d-md-block bg-primary text-white p-2">
+        Visible on md and above
+    </div>
+
+    <div class="d-lg-flex bg-success text-white p-2 mt-2">
+        Flex on large screens
+    </div>
+
+
+    <h1>Responsive Sidebar</h1>
+    <div class="d-flex">
+
+    <div class="d-none d-md-block bg-dark text-white p-3" style="width:200px;">
+        Sidebar
+    </div>
+
+    <div class="p-3">
+        Main Content
+    </div>
+
+    </div>
+
+
+<hr>
+
+
+                    <!-------Exercise  15---->
+
+
+    <h1>Borders</h1>
+    <class="text-center m-3">
+
+    <img src="Logo.png"
+         class="border border-primary border-3 rounded-circle"
+         alt="image">
+
+    <h1>Shadow</h1>
+    <class="text-center m-3">
+
+    <div class="card shadow-lg rounded-pill p-3">
+        Simple Card
+    </div>
+
+
+<hr>
+
+
+                    <!------Exercise 16----->
+
+    <h1>Fixed Footer</h1>
+    <div class="p-3">
+        Main Content
+    </div>
+
+    <div class="position-fixed bottom-0 bg-dark text-white w-100 p-2 text-center">
+        Fixed Footer
+    </div>
+
+    </div>
+
+    <h1>Badge Overlay on Image</h1>
+    <class="text-center m-3">
+
+    <div class="position-relative d-inline-block">
+        <img src="Logo.png" class="img-fluid">
+
+        <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">
+            New
+        </span>
+    </div>
+
+
+<hr>
+
+
+            <!---------Exercise 17---->
+
+    <h1>Social Media Icons in Footer</h1>
+    <div class="p-3 text-center"></div>
+         Main Content
+    </div>
+
+    <footer class="bg-dark text-white p-3 text-center">
+        <i class="bi bi-facebook me-2"></i>
+        <i class="bi bi-twitter me-2"></i>
+        <i class="bi bi-instagram"></i>
+    </footer>
+
+
+    <h1>Icon Only Buttons</h1>
+    <class="text-center m-3">
+
+    <button class="btn btn-primary">
+        <i class="bi bi-house"></i>
+    </button>
+
+    <button class="btn btn-success">
+        <i class="bi bi-check-circle"></i>
+    </button>
+
+
+<hr>
+
+
+
+
+                    <!------Exercise 18----->
+
+    <h1>Modal Popup</h1>
+    <class="text-center m-3">
+
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#m1">
+        Open
+    </button>
+
+    <div class="modal fade" id="m1">
+        <div class="modal-dialog">
+            <div class="modal-content p-3">
+                <p>Modal Box</p>
+                <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<hr>
+
+            <!-------Exercise 19------>
+
+
+
+
+
+    <h1>Accordion</h1>
+    <class="m-3">
+
+    <div class="accordion" id="a1">
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#c1">
+                One
+            </button>
+
+            <div id="c1" class="accordion-collapse collapse show" data-bs-parent="#a1">
+                <div class="accordion-body">Content 1</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#c2">
+                Two
+            </button>
+
+            <div id="c2" class="accordion-collapse collapse" data-bs-parent="#a1">
+                <div class="accordion-body">Content 2</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
